@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(background\ img.png);
+}
+
+.navbar{
+    height: 100px;
+}
+
+.logo{
+    height: 90px;
+    width: 150px;
+    background-image: url(download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+/**Main**/
+
+.box{
+    width: 300px;
+    height: 450px;
+    background-color: #000000b3;
+    padding-top:48px;
+    padding-bottom: 48px;
+    padding-left: 68px;
+    padding-right: 68px;
+    background-position: absolute;
+    margin-left: 35%;
+    color: white;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.data{
+    background-color: #0000005f;
+    height: 55px;
+    width: 100%;
+    border: .1px solid white;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: white;
+}
+
+.but1{
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    background-color: rgba(255, 0, 0, 0.904);
+    color: white;
+    border-radius: 4px;
+}
+
+.char{
+    color: #ffffffb3;
+    margin-left: 140px;
+}
+
+.but2{
+    background-color: grey;
+    color: white;
+    font-size: 1rem;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.p1{
+    color: white;
+    margin-left: 40px;
+}
+
+.p1 :hover{
+    text-decoration: underline;
+
+}
+
+.foot{
+    display: flex;
+}
+
+.foot p{
+    margin-left: 5px;
+}
+
+.cbox{
+    height: 20px;
+    width: 20px;
+    background: transparent ;
+    border: 1px solid transparent;
+}
+
+.cbox :hover{
+    border: 1px solid rgb(8, 8, 8);
+}
+
+.quo a{
+    color: white;
+}
+
+.quo{
+    color: #ffffffb3;
+    margin-top: 16px;
+}
+
+.clone{
+    height: 35px;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+}
+
+/**footer**/
+
+footer{
+    height: 320px;
+    background-color: #000000b3;
+    margin-top: 40px;
+    padding: 0px 32px;
+    color: #ffffffb3;
+}
+
+.que a{
+    color: #ffffffb3;
+}
+
+.da{
+    padding-top: 72px;
+    margin-left: 130px;
+}
+
+ul{
+    list-style-type:  none;
+    display: flex;
+    flex-wrap:  wrap;
+    padding-left: 120px;
+    text-decoration: underline;
+}
+
+li{
+    margin: 16px 0px 5px 12px;
+    width: 280px;
+    font-size: .85rem;
+}
+
+.english{
+    margin-top: 20px;
+    margin-left: 130px;
+    background-color: #000000b3;
+    color: white;
+    height: 32px;
+    width: 130px;
+    font-size: 1rem;
+    content: url(images.png);
+    position: absolute;
+}
